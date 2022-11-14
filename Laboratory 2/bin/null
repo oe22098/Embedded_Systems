@@ -1,0 +1,12 @@
+Open On-Chip Debugger (2008-06-19 19:00) svn: 717
+URL: http://svn.berlios.de/svnroot/repos/openocd/trunk
+Info:    options.c:50 configuration_output_handler(): jtag_speed: 3, 3
+Info:    options.c:50 configuration_output_handler(): Open On-Chip Debugger (2008-06-19 19:00) svn: 717
+Info:    jtag.c:1389 jtag_examine_chain(): JTAG device found: 0x3f0f0f0f (Manufacturer: 0x787, Part: 0xf0f0, Version: 0x3)
+Info:    jtag.c:1389 jtag_examine_chain(): JTAG device found: 0x3f0f0f0f (Manufacturer: 0x787, Part: 0xf0f0, Version: 0x3)
+Info:    target.c:237 target_init_handler(): executing reset script 'C:/Program Files/openOCD/sam7s256_flash.script'
+Info:    options.c:50 configuration_output_handler(): dcc downloads are enabled
+Info:    options.c:50 configuration_output_handler(): flash 'at91sam7' found at 0x00100000
+Info:    jtag.c:1389 jtag_examine_chain(): JTAG device found: 0x3f0f0f0f (Manufacturer: 0x787, Part: 0xf0f0, Version: 0x3)
+Warning: arm7_9_common.c:743 arm7_9_poll(): DBGACK set, but the target did not end up in the halted stated 1
+User:    target.c:436 target_process_reset(): Timed out waiting for halt after reset
